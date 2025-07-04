@@ -1,2 +1,3 @@
 # Sistema-Control-Gasto
+Sistema de Control de gastos es una aplicación web desarrolada con React.Pensada en usuarios que deseen llevar un control detallado de su economía personal o familiar...
 
