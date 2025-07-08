@@ -1,0 +1,13 @@
+export {default as App} from './App';
+//export * from './components/organismos/graficas/BarrasGrafica';
+//export * from './components/organismos/graficas/Doughnut';
+//export * from './components/organismos/graficas/LinealGrafica';
+//export * from './components/organismos/selectores/Selector';
+//export * from './components/organismos/sidebar/Sidebarcard';
+//export * from './components/organismos/sidebar/Textoflotante';
+export * from './components/templates/HomeTemplate';
+export * from './components/templates/LoginTemplate';
+export * from './main';
+export * from './pages/Login';
+export * from './routers/routes';
+export * from './pages/Home';
