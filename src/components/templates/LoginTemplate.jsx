@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import{Btnsave} from "../../index"
 export function LoginTemplate() {
   return (<Container>
 <div>
@@ -13,7 +14,10 @@ export function LoginTemplate() {
 
 <Titulo>Reguraling</Titulo>
 <p>Decile basta a tus impulsos de gastar💷 y controla tus ingresos📈</p>
+
 <ContainerBtn>
+  
+  <Btnsave/>
  
 </ContainerBtn>
 </div>
