@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import{Btnsave} from "../../index"
+import{Btnsave,v} from "../../index"
 export function LoginTemplate() {
   return (<Container>
 <div>
@@ -17,7 +17,7 @@ export function LoginTemplate() {
 
 <ContainerBtn>
   
-  <Btnsave/>
+  <Btnsave titulo="Iniciar con google" icono={<v.iconogoogle/>}/>
  
 </ContainerBtn>
 </div>
@@ -27,6 +27,10 @@ export function LoginTemplate() {
   </Container>);
 }
 const Container =styled.div`
+background-image: url(${v.imagenfondo});
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
   
 `
 
