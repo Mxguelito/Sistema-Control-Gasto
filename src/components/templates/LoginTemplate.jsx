@@ -1,6 +1,11 @@
+
+
 import styled from "styled-components";
 import{Btnsave,v} from "../../index"
 export function LoginTemplate() {
+
+
+
   return (<Container>
 <div>
 <span>versión 1.0</span>
@@ -26,8 +31,9 @@ export function LoginTemplate() {
 
   </Container>);
 }
+
 const Container =styled.div`
-background-image: url(${v.imagenfondo});
+background-image: url(${()=>v.imagenfondo});
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
